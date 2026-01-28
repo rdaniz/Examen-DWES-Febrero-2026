@@ -3,7 +3,28 @@ Este es el repositorio en el que se pondrá el examen de febrero. El día del ex
 
 Para poder trabajar con github hay que tener en cuenta que muchas veces pide autenticación con 2FA (sms, email, etc) por eso, el despliegue se abrirá el fin de semana anterior al examen para que podáis hacer el clonado del repositorio y un primer pullrequest.
 
-## Guía paso a paso: Configurar Git en Linux para usar tu cuenta automáticamente
+## 1. Entrega del Examen
+
+1. Crea TU propio repo usando este template:  
+   [Botón verde "Use this template" → "Create a new repository"]
+
+![botón template](./images/template.png)
+
+2. **IMPORTANTE**: Debe ser PRIVADO y tu nombre de usuario debe estar en el nombre del repo:  
+   `examen-dwes-apellido-nombre` (ej: `examen-dwes-garcia-luis`)
+
+3. Añádeme como colaborador (Settings → Collaborators → Add `@darioaxel`).
+
+4. Trabaja en la rama `main`. El último commit antes de la hora límite será la versión evaluada.
+
+5. Verificación de entrega (ejecuta ANTES de la hora límite):
+   ```bash
+   git log --oneline -5  # Debe mostrar tu trabajo
+   git remote -v         # Debe apuntar a TU repo, no al template
+
+
+
+## 2.  Guía paso a paso: Configurar Git en Linux para usar tu cuenta automáticamente
 
 ### Paso 1: Configurar tu identidad global (nombre y email)
 
